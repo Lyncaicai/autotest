@@ -1,0 +1,23 @@
+#新增基金
+#-
+#  url: /bms-pub/product/create_product_group
+#  method: post
+#  params:
+#   name: 基金
+#   operator_uid: 230000
+#  expect:
+#   code: 0
+#   msg: ''
+#  before:
+
+#修改基金名称
+#-
+#  url: /bms-pub/product/modify_product_group
+#  fuc: post
+#  params:
+#   name: 基金修改后
+#   group_id: 820
+#  expect:
+#   code: 0
+#   msg: null
+#  before: None
